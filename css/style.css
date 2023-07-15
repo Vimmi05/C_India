@@ -82,6 +82,7 @@ html{
 }
 img{
     transition: all 0.8s ease;
+    border: 1px solid white;
 }
 img:hover{
     margin-top: -10px;
@@ -89,7 +90,13 @@ img:hover{
     box-shadow: 5px 10px 0 lightgray;
     cursor: pointer;
 }
-
+.btn{
+    background-color: palevioletred;
+}
+.btn:hover{
+    background-color: #9e0059;
+    border: 1px solid burlywood;
+}
 /* For Animating Text */
 @keyframes textclip {
 to {
